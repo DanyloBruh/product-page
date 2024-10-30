@@ -21,7 +21,7 @@ const Footer = () => {
     >
       <img className="footer__logo" src={logo} alt="logo" />
       <div className="footer__links">
-        <Link>Github</Link>
+        <Link href="https://github.com/DanyloBruh">Github</Link>
         <Link>Contacts</Link>
         <Link>Rights</Link>
       </div>
