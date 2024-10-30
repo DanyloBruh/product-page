@@ -217,7 +217,7 @@ const ProductPage = () => {
                   <>
                     <Text as="span" size="7" weight="bold">
                       $
-                      {product &&
+                      {product?.itemsPrice &&
                         Object.keys(product?.itemsPrice)?.reduce(
                           (accumulator, currentValue) => {
                             const price =
@@ -239,7 +239,7 @@ const ProductPage = () => {
                       className="product__last-price"
                     >
                       $
-                      {product &&
+                      {product?.itemsPrice &&
                         Object.keys(product?.itemsPrice)?.reduce(
                           (accumulator, currentValue) => {
                             const price =
@@ -258,7 +258,7 @@ const ProductPage = () => {
                 ) : (
                   <Text as="span" size="7" weight="bold">
                     $
-                    {product &&
+                    {product?.itemsPrice &&
                       Object.keys(product?.itemsPrice)?.reduce(
                         (accumulator, currentValue) => {
                           const price =
