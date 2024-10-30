@@ -3,7 +3,7 @@
 }
 .product__image {
   width: 60%;
-  min-height: 600px;
+  min-height: 300px;
   display: flex;
   gap: 7px;
 }
