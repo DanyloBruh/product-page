@@ -216,7 +216,21 @@ const ProductPage = () => {
                 {product.priceDiscount ? (
                   <>
                     <Text as="span" size="7" weight="bold">
-                      ${product.priceDiscount}
+                      $
+                      {product &&
+                        Object.keys(product?.itemsPrice)?.reduce(
+                          (accumulator, currentValue) => {
+                            const price =
+                              product.itemsPrice[currentValue]?.[
+                                product[currentValue]
+                              ];
+                            if (price !== undefined) {
+                              accumulator += price;
+                            }
+                            return accumulator;
+                          },
+                          0
+                        ) + product.priceDiscount}
                     </Text>
                     <Text
                       as="span"
@@ -224,12 +238,40 @@ const ProductPage = () => {
                       color="gray"
                       className="product__last-price"
                     >
-                      ${product.priceRegular}
+                      $
+                      {product &&
+                        Object.keys(product?.itemsPrice)?.reduce(
+                          (accumulator, currentValue) => {
+                            const price =
+                              product.itemsPrice[currentValue]?.[
+                                product[currentValue]
+                              ];
+                            if (price !== undefined) {
+                              accumulator += price;
+                            }
+                            return accumulator;
+                          },
+                          0
+                        ) + product.priceRegular}
                     </Text>
                   </>
                 ) : (
                   <Text as="span" size="7" weight="bold">
-                    ${product.priceRegular}
+                    $
+                    {product &&
+                      Object.keys(product?.itemsPrice)?.reduce(
+                        (accumulator, currentValue) => {
+                          const price =
+                            product.itemsPrice[currentValue]?.[
+                              product[currentValue]
+                            ];
+                          if (price !== undefined) {
+                            accumulator += price;
+                          }
+                          return accumulator;
+                        },
+                        0
+                      ) + product.priceRegular}
                   </Text>
                 )}
               </Flex>
