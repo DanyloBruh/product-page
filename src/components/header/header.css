@@ -26,10 +26,13 @@
 }
 
 .header__icons {
-  height: 40px !important;
-  width: 40px !important;
-  margin: 0 11.5px 0 11.5px !important;
+  height: 63px !important;
+  width: 63px !important;
+  margin: 0px !important;
   transition: 0.3s ease-in-out;
+  border-radius: 0px !important;
+  box-sizing: border-box !important;
+  padding: 0px !important;
 }
 
 .header__sidebar {

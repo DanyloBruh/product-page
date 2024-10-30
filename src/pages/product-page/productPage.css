@@ -70,7 +70,12 @@
 
 @media (max-width: 767px) {
   .product__image {
+    align-items: center;
     width: 100%;
+  }
+  .product__selected {
+    display: flex;
+    justify-content: center;
   }
 }
 
