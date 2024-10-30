@@ -3,10 +3,14 @@
   "category": "Laptop",
   "namespaceId": "apple-iphone-11",
   "name": "Apple MacBook Air 13.6 M3 Chip 10GPU",
-  "storageAvailable": ["512GB", "1TB", "2TB"],
-  "storage": "512GB",
-  "memoryAvailable": ["8GB", "16GB", "24GB"],
-  "memory": "8GB",
+  "storageAvailable": ["256GB", "512GB", "1TB", "2TB"],
+  "storage": "256GB",
+  "memoryAvailable": ["16GB", "24GB"],
+  "itemsPrice": {
+    "memory": { "16GB": 0, "24GB": 200 },
+    "storage": { "256GB": 0, "512GB": 200, "1TB": 400, "2TB": 800 }
+  },
+  "memory": "16GB",
   "priceRegular": 1300,
   "priceDiscount": 1150,
   "colorsAvailable": [
