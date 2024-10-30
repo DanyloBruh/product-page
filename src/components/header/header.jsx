@@ -1,7 +1,7 @@
 import { Flex, IconButton, Separator, TabNav } from "@radix-ui/themes";
 import logo from "/assets/logo.svg";
 import "./header.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [openBurger, setOpenBurger] = useState(false);
@@ -9,6 +9,16 @@ const Header = () => {
   const handleBugreg = () => {
     setOpenBurger((prev) => !prev);
   };
+
+  useEffect(() => {
+    if (openBurger) {
+      console.log(document.body);
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [openBurger]);
+
   return (
     <div className="header">
       <img className="header__logo" src={logo} alt="logo" />
