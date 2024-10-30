@@ -18,28 +18,28 @@
   "color": "midnight",
   "images": {
     "midnight": [
-      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_1.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_2.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_3.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_4.jpg"
+      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_1-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_2-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_3-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_4-removebg-preview.png"
     ],
     "starlight": [
-      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_1.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_2.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_3.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_4.jpg"
+      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_1-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_2-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_3-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_4-removebg-preview.png"
     ],
     "space_gray": [
-      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_1.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_2.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_3.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_4.jpg"
+      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_1-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_2-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_3-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_4-removebg-preview.png"
     ],
     "silver": [
-      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_1.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_2.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_4.jpg",
-      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_3.jpg"
+      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_1-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_2-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_4-removebg-preview.png",
+      "assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_3-removebg-preview.png"
     ]
   },
   "description": [
