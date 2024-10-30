@@ -1,5 +1,5 @@
 import { Button, Flex, Link, Text } from "@radix-ui/themes";
-import logo from "../../assets/logo.svg";
+import logo from "/assets/logo.svg";
 import "./footer.css";
 
 const Footer = () => {
