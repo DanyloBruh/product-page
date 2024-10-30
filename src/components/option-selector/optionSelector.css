@@ -1,0 +1,16 @@
+@media (max-width: 1023px) {
+  .rt-BaseCard {
+    padding: 10px !important;
+  }
+}
+
+.select__color {
+  height: 30px !important;
+  width: 30px !important;
+  padding: 0 !important;
+}
+.select__color-item {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px
+}

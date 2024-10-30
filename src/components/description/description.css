@@ -1,0 +1,14 @@
+.description__list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.description__item {
+  display: flex;
+  justify-content: space-between;
+}
+.description__item:not(:last-child) {
+  margin-bottom: 8px;
+}

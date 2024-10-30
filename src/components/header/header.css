@@ -1,0 +1,94 @@
+.header {
+  height: 64px;
+  width: 100%;
+  border-bottom: 1px #323542 solid;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  background-color: #121113;
+  z-index: 100;
+}
+
+.header__logo {
+  height: 28px;
+  width: 80px;
+  margin-right: 48px;
+}
+
+.rt-BaseTabList {
+  box-shadow: none !important;
+}
+
+.rt-Separator:where(.rt-r-orientation-vertical) {
+  height: 100% !important;
+}
+
+.header__icons {
+  height: 40px !important;
+  width: 40px !important;
+  margin: 0 11.5px 0 11.5px !important;
+  transition: 0.3s ease-in-out;
+}
+
+.header__sidebar {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  background-color: #121113;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__sidebar-open {
+  left: 0px;
+}
+
+.header__sidebar-close {
+  right: 0px;
+  transform: translateX(100%);
+}
+
+.header__sidebar > .rt-TabNavRoot {
+  margin: auto;
+}
+
+.header__sidebar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__sidebar-btn-group {
+  height: 64px !important;
+  width: 100%;
+  border-top: 1px solid #323542;
+  margin-top: auto;
+}
+
+.header__sidebar-btn-group > .rt-IconButton {
+  height: 100% !important;
+  flex-grow: 1;
+  margin: 0 !important;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+}

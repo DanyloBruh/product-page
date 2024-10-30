@@ -1,0 +1,91 @@
+{
+  "id": "apple-iphone-11-128gb-black",
+  "category": "Laptop",
+  "namespaceId": "apple-iphone-11",
+  "name": "Apple MacBook Air 13.6 M3 Chip 10GPU",
+  "storageAvailable": ["512GB", "1TB", "2TB"],
+  "storage": "512GB",
+  "memoryAvailable": ["8GB", "16GB", "24GB"],
+  "memory": "8GB",
+  "priceRegular": 1300,
+  "priceDiscount": 1150,
+  "colorsAvailable": [
+    { "midnight": "#171E27" },
+    { "starlight": "#F9F3EE" },
+    { "space_gray": "#25282a" },
+    { "silver": "#e4e4e2" }
+  ],
+  "color": "midnight",
+  "images": {
+    "midnight": [
+      "/src/assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_1.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_2.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_3.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/midnight/macbook_midnight_4.jpg"
+    ],
+    "starlight": [
+      "/src/assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_1.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_2.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_3.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/starlight/macbook_starlight_4.jpg"
+    ],
+    "space_gray": [
+      "/src/assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_1.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_2.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_3.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/space-grey/macbook_space_grey_4.jpg"
+    ],
+    "silver": [
+      "/src/assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_1.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_2.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_4.jpg",
+      "/src/assets/products/apple-macbook-air-13.6-m3/silver/macbook_silver_3.jpg"
+    ]
+  },
+  "description": [
+    {
+      "title": "Apple MacBook Air M3",
+      "text": "An updated laptop in which the classic elegance inherent in Apple technology is complemented by a new M3 chip and even more improved usability tools. The model is great for work and play, and the already mentioned chip gives the laptop more superpowers and autonomy so you can be productive anywhere, anytime."
+    },
+    {
+      "title": "Bright and thin Retina screen",
+      "text": "The Liquid Retina display on MacBook Air supports up to 1 billion colors and has an excellent resolution of 2560x1664. That's why every image on this 13.6-inch screen stands out with high contrast and detail, and the text is extremely clear for easy reading."
+    },
+    {
+      "title": "New chip — new possibilities",
+      "text": "M3 opens a new generation of Apple processors. Ensures greater speed and smooth operation of all systems, so you can work without problems with programs and applications in multitasking mode, edit videos in iMovie or play Baldur's Gate 3 in game mode. Focus completely on the work, no matter how difficult it is."
+    },
+    {
+      "title": "The power of artificial intelligence",
+      "text": "MacBook with M3 uses the artificial intelligence performance of the Neural Engine to deliver intelligent macOS features, including powerful camera options, real-time speech-to-text, visual perception and more. With this chip, graphics and games will look better than ever on MacBook Air. Thanks to the new class of GPU M3 architecture, the laptop has dynamic caching and hardware acceleration of ray tracing. Dynamic caching dramatically increases performance in professional applications and games, while hardware-accelerated ray tracing creates more realistic images for immersive gaming."
+    },
+    {
+      "title": "Up to 18 hours of battery life",
+      "text": "MacBook Air M3 has incredible battery life, so it is ready for any tasks and challenges. No matter how intense the workload, it runs quietly thanks to its fanless design."
+    },
+    {
+      "title": "All for quality communication",
+      "text": "Look your best in any online meeting, conference or lecture with the HD FaceTime 1080p camera. Be sure business partners or family will hear you loud and clear wherever you are, thanks to a three-microphone system with advanced beamforming algorithms to record clear sound. MacBook Air with M3 has features that improve voice clarity during audio and video calls."
+    },
+    {
+      "title": "Immersive sound system",
+      "text": "The speakers on the MacBook Air support Spatial Audio along with Dolby Atmos, so you can enjoy a three-dimensional soundstage for music and movies. The gadget is equipped with a system with four speakers for fun entertainment: two low-frequency and two high-frequency."
+    },
+    {
+      "title": "Working with text and interaction",
+      "text": "The comfortable and quiet backlit Magic Keyboard features full-height function keys and Touch ID, making it quick, easy and secure to unlock your Mac, eliminating the need to remember passwords. For added convenience, the laptop is equipped with two Thunderbolt ports that allow you to charge it and connect high-speed accessories. It also supports MagSafe wireless charging and the modern Wi‑Fi 6E wireless standard."
+    }
+  ],
+  "model": "Apple MacBook Air 13.6",
+  "chip": "Apple M3",
+  "cpu_cores": 8,
+  "gpu_cores": 10,
+  "display_size": "13.6 inches",
+  "display_type": "Liquid Retina",
+  "display_color_gamut": "P3 Wide Color",
+  "display_brightness": "500 nits",
+  "display_resolution": "2560X1664",
+  "battery_life": "Up to 18 hours",
+  "operating_system": "macOS",
+  "weight": "2.7 pounds"
+}
