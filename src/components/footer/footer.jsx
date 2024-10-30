@@ -17,7 +17,7 @@ const Footer = () => {
       justify="between"
       height={{ initial: "100%", sm: "96px" }}
       direction={{ initial: "column", sm: "row" }}
-      gap={{ initial: "59px", sm: "0" }}
+      gap={{ initial: "30px", sm: "0" }}
     >
       <img className="footer__logo" src={logo} alt="logo" />
       <div className="footer__links">
